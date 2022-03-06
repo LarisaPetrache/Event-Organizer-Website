@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: rgb(33, 28, 49);
+    color: rgb(218, 212, 245);
+    padding: 1px 20px;
+}
+
+.login-box h1{
+    float: left;
+    font-size: 31px;
+    border-bottom: 5px solid #4caf50;
+    margin-bottom: 40px;
+}
+
+.login-box{
+    width: 300px;
+    height: 400px;
+    top: 50px;
+    position: relative;
+    margin: 6% auto;
+    background: whitesmoke;
+    opacity: 0.8;
+    padding: 50px 90px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.text-box{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+}
+
+.text-box i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.text-box input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    margin: 0 10px;
+    font-family: Montserrat;
+}
+
+.submit_btn{
+    width: 100%;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    height: 40px;
+    
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    background: -webkit-linear-gradient(left, #0d5e64, #19af7d);
+}
+
+.submit_btn:hover{
+    background: -webkit-linear-gradient(left, #19af7d, #0d5e64);
+}
+
+/* Error messages */
+.error-msg{
+    color: rgb(248, 101, 101);
+    font-size: 13px;
+}

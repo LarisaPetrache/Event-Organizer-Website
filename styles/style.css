@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+/* Utilizator */
+
+.box{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url('../images/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*color: rgb(218, 212, 245);*/
+
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 0px 50px 60px;
+}
+
+#nume{
+    position: relative;
+    padding-left: 30px;
+    top: -20px;
+    font-size: 20px;
+}
+
+
+#profile_img{
+    position: relative;
+    top: 30px;
+
+    border-radius: 50%;
+    /*box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);*/
+    height: 120px;
+    width: 120px;
+}
+
+/* Today's events container */
+.events{
+    padding: 50px;
+    background-color:  rgb(69, 56, 112);
+    color: rgb(218, 212, 245);
+
+    width: 22%;
+    height: 700px;
+}
+
+.events h1{
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.calendar_box{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url('../images/calendar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(231, 230, 250); */
+    height: 800px;
+    width: 1250px;
+}
+
+.create_event_box{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url('../images/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(231, 230, 250);
+    height: 800px;
+    width: 1250px;
+}
+
+#cal{
+    color: rgb(169, 165, 192);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 14px 14px 14px 25px;
+}
+
+.title{
+    background-image: -webkit-linear-gradient(right,rgb(33, 28, 49),rgb(36, 31, 54),rgb(33, 28, 49));
+    height: 60px;
+}
+
+.title2{
+    background: -webkit-linear-gradient(left, #401f92, #4d29af);  
+    height: 60px;
+}
+
+.title_left{
+    background-color: rgb(33, 28, 49);
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Text Area */
+.month_events{
+    font-size: 10px;
+}
+
+.btn{
+    color: white;
+    padding: 20px;
+    margin-left: 7px;
+    font-size: 15px;
+    
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+/* Header */
+header{
+    background-image: -webkit-linear-gradient(right,rgb(33, 28, 49),rgb(36, 31, 54),rgb(33, 28, 49));
+    color: rgb(218, 212, 245);
+    padding: 20px;
+    margin: 0px;
+}
+
+/* Meniu */
+.menu{
+    float: right;
+    font-size: 20px;
+    
+    position: relative;
+    top: -30px;
+
+    color: rgb(169, 165, 192);
+    text-decoration: none;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: rgb(33, 28, 49);
+    color: rgb(175, 170, 196);
+    padding: 13px;
+}
